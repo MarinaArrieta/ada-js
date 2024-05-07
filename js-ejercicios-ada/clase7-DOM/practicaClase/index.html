@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 7 DOM</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <h1 id="saludo">Holis !</h1>
+    <button id="click">Click Acá</button>
+    <script>
+        let hola = document.getElementById('saludo')
+        let boton = document.getElementById('click')
+
+        /* console.log(saludo.textContent);
+        hola.textContent = 'Pizza' */
+
+        boton.addEventListener('click', ()=>{
+            hola.textContent = 'Pizza con queso azul';
+            boton.style.background = 'blue';
+            boton.style.color = 'white';
+
+            saludo.style.background = 'blue';
+            saludo.style.color = 'white';
+        });
+
+    </script>
+</body>
+</html>

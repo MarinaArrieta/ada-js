@@ -1,0 +1,1 @@
+function jugarPiedraPapelTijeras(jugadoraA, jugadoraB, jugadasA, jugadasB){}

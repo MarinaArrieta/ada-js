@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 40px;
+}
+
+h1{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    color: rgb(5 221 223);
+    letter-spacing: 4px;
+    font-weight: 100;
+    text-shadow: -2px 1px 0px #101010;
+}
+
+button{
+    width: 160px;
+    padding: 30px;
+    border-radius: 6px;
+    border: 0px;
+    background: greenyellow;
+    font-size: 1.1rem;
+}
